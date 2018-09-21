@@ -1,0 +1,100 @@
+00455777    8BF1            MOV     ESI, ECX
+00455779    8B0D 107C9800   MOV     ECX, DWORD PTR DS:[987C10]
+0045577F    8B96 3C020000   MOV     EDX, DWORD PTR DS:[ESI+23C]
+00455785    8B01            MOV     EAX, DWORD PTR DS:[ECX]          ; BF2.008B94E0
+00455787    52              PUSH    EDX
+00455788    FF50 10         CALL    NEAR DWORD PTR DS:[EAX+10]
+0045578B    8B80 84000000   MOV     EAX, DWORD PTR DS:[EAX+84] - allies cpoints
+
+if(allc)for(int i = 0; i < allc; i++)
+
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]
+0053366B    8B0D 48199700   MOV     ECX, DWORD PTR DS:[971948]-ClassManager
+
+0075D870   >  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8]
+0075D870   >  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8]
+0075D870   >  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8]
+0075D870   >  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8] + 15C] = commander class + 0x44] = art rdy
+
+007567C3   .  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8]
+007567C3   .  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8]
+007567C3   .  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8]
+007567C3   .  8B0D F8BB9D00 MOV     ECX, DWORD PTR DS:[9DBBF8] + 118] + AE0] = UAV rdy
+
+03DE3587    8B0D 6099F403   MOV     ECX, DWORD PTR DS:[3F49960]
+03DE3587    8B0D 6099F403   MOV     ECX, DWORD PTR DS:[3F49960] + 5F8] = 
+
+03E3CDC8    D905 747AF403   FLD     DWORD PTR DS:[3F47A74] 
+03E3CEC7    D905 2C7AF403   FLD     DWORD PTR DS:[3F47A2C]
+03E3CEC7    D905 2C7AF403   FLD     DWORD PTR DS:[3F47A2C]- fade dist
+03E3CEC7    D905 2C7AF403   FLD     DWORD PTR DS:[3F47A2C]
+
+
+
+
+
+
+
+
+
+
+
+1C09B0
+
+
+1AABB01AABB0
+1AABB0
+1AABB0 - health base
+
+
+	sssMenu->mssEntry[x].bssEnabled = false;
+
+		MARK_NAME10( "Enable SS Cleaner"		, 0		)
+		MARK_NAME10( "Update SS Interval: 10s"		, 1		)
+	
+	MARK_NAME11( "Time"		, 8		)
+		MARK_NAME11( "FPS"		, 9		)
+		MARK_NAME11( "Ping"		, 10		)
+
+
+
+		MARK_NAME9( "Draw Vec"		, 0		)
+		MARK_NAME9( "Raise Vec"		, 1		)
+		MARK_NAME9( "Lower Vec"		, 2		)
+		MARK_NAME9( "Move Right"				, 3		)
+		MARK_NAME9( "Move Left"		, 4		)
+		MARK_NAME9( "Move Forword"		, 5		)
+		MARK_NAME9( "Move Back"		, 6		)
+		MARK_NAME7( "Load Vec 1"		, 7		)
+		MARK_NAME7( "Load Vec 2"		, 8		)
+		MARK_NAME7( "Load Vec 3"		, 9		)
+		MARK_NAME7( "Save Vec 1"		, 10		)
+		MARK_NAME7( "Save Vec 2"		, 11	)
+		MARK_NAME7( "Save Vec 3"		, 12	)
+
+
+
+
+
+
+
+	/*if(deltav < 5)
+				{
+					dav += coords -  pCVar->Settings.ALastCoords;
+					deltav++;
+				}
+				else
+				{*/
+//				pCVar->Settings.ADelta = dav / 5.0f;
+				dav.x = 0.0f;
+				dav.y = 0.0f;
+				dav.z = 0.0f;
+				deltav = 0;
+				if(pCVar->Settings.APing)
